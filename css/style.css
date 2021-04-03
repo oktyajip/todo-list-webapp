@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading-todo {
+    margin-bottom: 1rem;
+}
+
+.input-todo {
+    margin-bottom: 1rem;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input-todo input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 5px 1px #888888;
+    width: 280px;
+    margin-right: 20px;
+    font-size: 0.9rem;
+}
+
+.btn-add {
+    background-color: lightgreen;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: lightseagreen;
+}
+
+.list-todo {
+    margin-top: 15px;
+    width: 350px;
+    box-shadow: 0px 0px 5px 1px #888888;
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.todoList .todo p {
+    margin-right: 15px;
+}
+
+.btn-del {
+    background-color: rgb(248, 136, 136);
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-del:hover {
+    background-color: rgb(255, 56, 56);
+}
+
+.todo {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.todo:hover {
+    border: 1px solid rgb(161, 161, 161);
+}
+
+.alert {
+    padding: 10px;
+    background-color: rgb(248, 124, 124);
+    border-radius: 2px 5px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.print-todo > button {
+    margin-top: 20px;
+    background-color: lightseagreen;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
